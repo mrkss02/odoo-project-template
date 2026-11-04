@@ -1,0 +1,10 @@
+[[config]]
+name = "default"
+odoo_path = "./odoo/community"
+addons_paths = [
+    "./odoo/community/addons",
+    "./odoo/enterprise",
+    "./<repo>",
+]
+python_path = "${workspaceFolder}/odoo/venv/bin/python"
+diag_missing_imports = "only_odoo"

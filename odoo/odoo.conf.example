@@ -1,0 +1,15 @@
+[options]
+addons_path = ./community/addons,./enterprise,../<repo>
+data_dir = ./data
+
+db_host = localhost
+db_port = <db-port>
+db_user = <postgres-user>
+db_password = <postgres-password>
+db_name = False
+list_db = True
+admin_passwd = <admin-password>
+
+http_port = <http-port>
+log_level = info
+dev_mode = all

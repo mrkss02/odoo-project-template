@@ -1,0 +1,2 @@
+# Extra python packages the project needs besides community/requirements.txt
+# -r <path-to-repo>/requirements.txt
